@@ -1,5 +1,6 @@
 # coding=utf-8
 import os
+import time
 import ConfigParser
 from selenium import webdriver
 
@@ -12,7 +13,7 @@ class BrowserEngine(object):
         self.driver = driver
 
     # read the browser type from config.ini file, return the driver
-    def get_driver(self):
+    def open_browser(self):
         config = ConfigParser.ConfigParser()
         config_path = os.path.dirname(os.path.abspath('.')) + '/config/config.ini'
         config.read(config_path)
@@ -25,14 +26,19 @@ class BrowserEngine(object):
         :return: driver
         """
         if browser_type == 'Firefox':
-            self.driver = webdriver.Firefox()
+            driver = webdriver.Firefox()
         elif browser_type == 'Chrome':
-            self.driver = webdriver.Chrome()
+            driver = webdriver.Chrome()
         elif browser_type == 'IE':
-            self.driver = webdriver.Ie()
+            driver = webdriver.Ie()
         else:
-            self.driver = webdriver.Firefox()
+            driver = webdriver.Firefox()
 
-        return self.driver.get(url)
+        driver.get(url)
+        driver.time.sleep(20)
 
+        return driver
 
+bs = webdriver.Firefox()
+a = BrowserEngine(bs)
+a.open_browser()

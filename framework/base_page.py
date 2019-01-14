@@ -39,6 +39,10 @@ class Base_Page(object):
             element = self.driver.find_element_by_css_selector(selector_value)
         return element
 
+    def click(self, selector):
+        el = self.find_element(selector)
+        el.click()
+
     # 获取被测网站
     def get(self, url):
         return self.driver.get(url)
