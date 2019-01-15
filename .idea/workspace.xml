@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f8006cc-541c-43e8-9785-1719b1a4252c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/test_baidu_homepage2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework/browser_engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/framework/browser_engine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_baidu_homepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_baidu_homepage(自己启动浏览器).py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,12 +14,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework/base_page.py">
+        <entry file="file://$PROJECT_DIR$/framework/browser_engine.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            <state relative-caret-position="224">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
               <folding>
                 <element signature="e#15#24#0" expanded="true" />
               </folding>
@@ -25,22 +28,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/framework/browser_engine.py">
+        <entry file="file://$PROJECT_DIR$/test/test_baidu_homepage2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="937">
-              <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+            <state relative-caret-position="286">
+              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
               <folding>
-                <element signature="e#15#24#0" expanded="true" />
+                <element signature="e#15#30#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/config.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -48,20 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pageobjects/baidu_homepage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_baidu_homepage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="16" />
-              <folding>
-                <element signature="e#15#30#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="182">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -92,12 +74,13 @@
         <option value="$PROJECT_DIR$/pageobjects/baidu_homepage.py" />
         <option value="$PROJECT_DIR$/test/test001.py" />
         <option value="$PROJECT_DIR$/framework/base_page.py" />
-        <option value="$PROJECT_DIR$/test/test_baidu_homepage.py" />
         <option value="$PROJECT_DIR$/framework/browser_engine.py" />
+        <option value="$PROJECT_DIR$/test/test_baidu_homepage.py" />
+        <option value="$PROJECT_DIR$/test/test_baidu_homepage2.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="1386" />
     <option name="height" value="788" />
   </component>
@@ -107,18 +90,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="UI003" type="b2602c69:ProjectViewProjectNode" />
               <item name="UI003" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UI003" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UI003" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UI003" type="b2602c69:ProjectViewProjectNode" />
@@ -135,10 +112,15 @@
               <item name="UI003" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="UI003" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -165,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.browser_engine">
+  <component name="RunManager" selected="Python tests.Unittests for test_baidu_homepage.BadiduHomePageTaseCse">
     <configuration name="browser_engine" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="UI003" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -229,7 +211,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_baidu_homepage.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_baidu_homepage(自己启动浏览器).py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="UI003" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -239,16 +221,16 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_baidu_homepage.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_baidu_homepage(自己启动浏览器).py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.browser_engine" />
         <item itemvalue="Python tests.Unittests for test_baidu_homepage.BadiduHomePageTaseCse" />
-        <item itemvalue="Python tests.Unittests in test_baidu_homepage.py" />
+        <item itemvalue="Python tests.Unittests in test_baidu_homepage(自己启动浏览器).py" />
         <item itemvalue="Python tests.Unittests for test_baidu_homepage.BadiduHomePageTaseCse.test_baidu_search" />
+        <item itemvalue="Python.browser_engine" />
         <item itemvalue="Python tests.Unittests for test_baidu_homepage.BadiduHomePageTaseCse.test_title" />
       </list>
     </recent_temporary>
@@ -267,47 +249,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_baidu_homepage_BadiduHomePageTaseCse_test_baidu_search - 2019.01.11 at 17h 27m 17s.xml">
-      <configuration name="Unittests for test_baidu_homepage.BadiduHomePageTaseCse.test_baidu_search" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_baidu_homepage_BadiduHomePageTaseCse_test_title - 2019.01.11 at 17h 28m 57s.xml">
-      <configuration name="Unittests for test_baidu_homepage.BadiduHomePageTaseCse.test_title" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_baidu_homepage_BadiduHomePageTaseCse_test_title - 2019.01.11 at 17h 29m 45s.xml">
-      <configuration name="Unittests for test_baidu_homepage.BadiduHomePageTaseCse.test_title" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_baidu_homepage_py - 2019.01.11 at 22h 49m 20s.xml">
-      <configuration name="Unittests in test_baidu_homepage.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_baidu_homepage_BadiduHomePageTaseCse_test_baidu_search - 2019.01.14 at 09h 10m 20s.xml">
-      <configuration name="Unittests for test_baidu_homepage.BadiduHomePageTaseCse.test_baidu_search" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_baidu_homepage_BadiduHomePageTaseCse - 2019.01.14 at 09h 11m 48s.xml">
-      <configuration name="Unittests for test_baidu_homepage.BadiduHomePageTaseCse" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_baidu_homepage_BadiduHomePageTaseCse - 2019.01.14 at 09h 12m 49s.xml">
-      <configuration name="Unittests for test_baidu_homepage.BadiduHomePageTaseCse" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_baidu_homepage_py - 2019.01.14 at 09h 15m 13s.xml">
-      <configuration name="Unittests in test_baidu_homepage.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_baidu_homepage_BadiduHomePageTaseCse - 2019.01.14 at 09h 21m 10s.xml">
       <configuration name="Unittests for test_baidu_homepage.BadiduHomePageTaseCse" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_for_test_baidu_homepage_BadiduHomePageTaseCse - 2019.01.14 at 16h 27m 52s.xml">
       <configuration name="Unittests for test_baidu_homepage.BadiduHomePageTaseCse" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_baidu_homepage_py - 2019.01.15 at 11h 45m 50s.xml">
+      <configuration name="Unittests in test_baidu_homepage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_baidu_homepage_BadiduHomePageTaseCse - 2019.01.15 at 11h 55m 28s.xml">
+      <configuration name="Unittests for test_baidu_homepage.BadiduHomePageTaseCse" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_baidu_homepage_BadiduHomePageTaseCse - 2019.01.15 at 11h 55m 52s.xml">
+      <configuration name="Unittests for test_baidu_homepage.BadiduHomePageTaseCse" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_baidu_homepage_BadiduHomePageTaseCse - 2019.01.15 at 11h 56m 39s.xml">
+      <configuration name="Unittests for test_baidu_homepage.BadiduHomePageTaseCse" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_baidu_homepage_BadiduHomePageTaseCse_test_baidu_search - 2019.01.15 at 11h 58m 15s.xml">
+      <configuration name="Unittests for test_baidu_homepage.BadiduHomePageTaseCse.test_baidu_search" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_baidu_homepage_BadiduHomePageTaseCse_test_baidu_search - 2019.01.15 at 11h 58m 57s.xml">
+      <configuration name="Unittests for test_baidu_homepage.BadiduHomePageTaseCse.test_baidu_search" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_baidu_homepage_py - 2019.01.15 at 12h 04m 41s.xml">
+      <configuration name="Unittests in test_baidu_homepage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_baidu_homepage_BadiduHomePageTaseCse - 2019.01.15 at 17h 02m 54s.xml">
+      <configuration name="Unittests for test_baidu_homepage.BadiduHomePageTaseCse" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24553572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.049099836" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14566284" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39052287" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -362,16 +344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/browser_engine2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="e#15#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_用配置文件去启动浏览器2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -396,23 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pageobjects/baidu_homepage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_baidu_homepage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <element signature="e#15#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/config.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -420,12 +375,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/browser_engine.py">
+    <entry file="file://$PROJECT_DIR$/framework/browser_engine2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="937">
-          <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        <state relative-caret-position="338">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="e#15#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_baidu_homepage(自己启动浏览器).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="16" selection-end-line="51" />
+          <folding>
+            <element signature="e#15#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/browser_engine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="e#15#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageobjects/baidu_homepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_baidu_homepage2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="e#15#30#0" expanded="true" />
           </folding>
         </state>
       </provider>

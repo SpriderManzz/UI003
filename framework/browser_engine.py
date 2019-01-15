@@ -33,12 +33,9 @@ class BrowserEngine(object):
             driver = webdriver.Ie()
         else:
             driver = webdriver.Firefox()
-
         driver.get(url)
-        driver.time.sleep(20)
 
         return driver
 
-bs = webdriver.Firefox()
-a = BrowserEngine(bs)
-# a.open_browser()
+    def quit_browser(self):
+        self.driver.quit()
