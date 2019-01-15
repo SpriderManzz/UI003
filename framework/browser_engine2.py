@@ -1,6 +1,9 @@
 # coding=utf-8
 import os
-import ConfigParser
+try:
+    import configparser
+except ImportError:
+    import ConfigParser as configparser
 from selenium import webdriver
 
 
@@ -11,9 +14,9 @@ class BrowserEngine(object):
     def __init__(self, driver):
         self.driver = driver
 
-    def get_driver(self,driver):
-        config = ConfigParser.ConfigParser()
-        config_path = os.path.dirname(os.path.abspath('.')) + '/config/config.ini'
+    def get_driver(self, driver):
+        config = configparser.ConfigParser()
+        config_path = os.path.dirname(os.path.abspath('.')) + '/config/config.conf'
         config.read(config_path)
 
         browser_type = config.get("browserType", "browserName")    # browser_type = 配置文件的Firefox
