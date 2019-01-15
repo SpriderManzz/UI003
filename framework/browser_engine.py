@@ -41,4 +41,4 @@ class BrowserEngine(object):
 
 bs = webdriver.Firefox()
 a = BrowserEngine(bs)
-a.open_browser()
+# a.open_browser()
